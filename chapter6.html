@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> increment & decrement</h1>
+<p id="para"></p>
+<p id="para1"></p>
+    <script>
+        let count = "";
+        let i = 8;
+        while(i>30){
+            count +="<br> the number is " +i; i++; 
+        }
+        document.getElementById("para").innerHTML = count;
+
+        let number = "";
+        let j = 8;
+        while(i<30){
+            count +="<br> the number is " +i; i--; 
+        }
+        document.getElementById("para1").innerHTML = count;
+    </script>
+</body>
+</html>
